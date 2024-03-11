@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SignalR.DtoLayer.AboutDto
+{
+    public class UpdateAboutDto
+    {
+        public int AboutId { get; set; }
+        public string ImgUrl { get; set; }
+        public string Title { get; set; }
+        public string AboutDescription { get; set; }
+
+    }
+}

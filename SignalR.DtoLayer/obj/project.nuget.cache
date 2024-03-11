@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "j6E2QSBeCrAchor3Vmya8BXOeLjBY1gdajPYDsMn0is7+s4TJ9jrBiU9veKYLCewBmzLr09yQ5CX9hnnphPn/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ekin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\ekin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\ekin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

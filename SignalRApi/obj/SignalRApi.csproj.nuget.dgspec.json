@@ -1,0 +1,420 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalRApi\\SignalRApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj",
+        "projectName": "SignalR.BusinessLayer",
+        "projectPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\ekin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj",
+        "projectName": "SignalR.DataAccessLayer",
+        "projectPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\ekin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
+                "projectPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj"
+              },
+              "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj",
+        "projectName": "SignalR.DtoLayer",
+        "projectPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj",
+        "packagesPath": "C:\\Users\\ekin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DtoLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj",
+        "projectName": "SignalR.EntityLayer",
+        "projectPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\ekin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.EntityLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalRApi\\SignalRApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalRApi\\SignalRApi.csproj",
+        "projectName": "SignalRApi",
+        "projectPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalRApi\\SignalRApi.csproj",
+        "packagesPath": "C:\\Users\\ekin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalRApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj"
+              },
+              "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
+                "projectPath": "C:\\Users\\ekin\\source\\repos\\SignalRProject\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
